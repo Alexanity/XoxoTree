@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace ChristmasTree.Builder
 {
+    //Builder  
     abstract class DecorationsBuilder
     {
         protected Decoration decoration;

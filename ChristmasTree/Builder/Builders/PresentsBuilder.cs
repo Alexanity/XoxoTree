@@ -17,10 +17,8 @@ namespace ChristmasTree.Builder
         {
             Console.Write("Enter wrapping color: ");
             decoration["color"] = Console.ReadLine();
-
             return decoration["color"];
         }
-
         public override string BuildLenght()
         {
             throw new NotImplementedException();

@@ -23,7 +23,6 @@ namespace ChristmasTree.Builder
         {
             Console.Write("Enter gerland lenght: ");
             decoration["lenght"] = Console.ReadLine();
-
             return decoration["lenght"];
         }
         public override string BuildSize()
@@ -41,7 +40,6 @@ namespace ChristmasTree.Builder
 
             return decoration["type"];
         }
-
         public override void Display()
         {
             Console.WriteLine();

@@ -5,6 +5,7 @@ namespace ChristmasTree.Builder
 {
     class DecorationsShop
     {
+        //Director  
         public string ConstructToy(DecorationsBuilder decorationsBuilder)
         {
             string color = decorationsBuilder.BuildColor();
@@ -33,7 +34,6 @@ namespace ChristmasTree.Builder
         }
         public string ConstructPresents(DecorationsBuilder decorationsBuilder)
         {
-            //string number =  decorationsBuilder.BuildNumberOfPresents();
             string color = decorationsBuilder.BuildColor();
             string size = decorationsBuilder.BuildSize();
             string result = color + " colored " + "and " + size + " in size.";

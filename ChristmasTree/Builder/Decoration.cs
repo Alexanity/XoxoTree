@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChristmasTree.Builder.Builders
 {
+    //Product 
     class Decoration
     {
         private string decorationType;
