@@ -56,9 +56,10 @@ namespace ChristmasTree
             totalPresentsOutup.Add(presentOuput);
 
             Console.WriteLine(Constants.line);
-
             //------------***BUILDER***-----------------
             Console.WriteLine();
+
+            //------------***OBSERVER***----------------
 
             //--------------***DECORATOR***-------------
             ChristmasTree Tree = new ChristmasTree(totalToyOutup, totalGerlandOutup, totalLightOutup, totalPresentsOutup, randNumPresent);
